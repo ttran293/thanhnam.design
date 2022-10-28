@@ -30,14 +30,16 @@ h1 {
     margin: 1em;
 
 }
-#copyright{
+
+#copyright {
     margin-right: 1rem;
 }
+
 #image-description {
     margin: 0 !important;
 }
 
-a{
+a {
     color: black;
 }
 
@@ -82,3 +84,4 @@ a{
         left: 120%;
     }
 }
+

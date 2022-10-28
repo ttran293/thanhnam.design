@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.0/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -14,23 +15,30 @@
 <body>
 
     <header>
-
         <div class="ui two column stackable grid middle aligned">
-            <div class="nine wide column ">
+            <div class="seven wide column ">
                 <div class="">
-                    <h1 id="name">Thanh Nam Tran </h1>
-
+                    <h1 id="name">Thanh Nam Tran<i class="sync icon yellow  loading"></i> </h1>
+                </div>
+            </div>
+            <div class="one wide column ">
+                <div class="">
+                    <h1 style="text-align:center;"> <a href="https://www.instagram.com/nawtgood/"> <i
+                                class="instagram large icon link"></i></a></h1>
                 </div>
 
             </div>
-            <div class="three wide column">
+
+            <div class="four wide column">
                 <div class="">
-                    <h1 id="header-menu"><i class="hand point right icon loading"></i>github</h1>
+                    <h1 id="header-menu"> <a href="https://github.com/ttran293"><i
+                                class="hand point right icon green loading"></i>github</a></h1>
                 </div>
             </div>
-            <div class="three wide column">
+            <div class="four wide column">
                 <div class="">
-                    <h1 id="header-menu"><i class="hand point right icon loading"></i>contact</h1>
+                    <h1 id="header-menu"> <a href="mailto:ttran19@umbc.edu"><i
+                                class="hand point right icon purple  loading"></i>ttran19@umbc.edu</a></h1>
                 </div>
             </div>
         </div>
@@ -52,13 +60,13 @@
     </div>
 
     <div class="ui stackable grid ">
-        <div class="three column row">
-            <div class="column ui small  fade reveal">
+        <div class="three column row ">
+            <div class="column ui small fade reveal">
                 <div class="visible content"><img class="ui fluid image" src="images/image11.jpg" alt="Image"></div>
 
-                <div class="hidden content   ">
-                    <div id="image-description" class="ui cards centered ">
-                        <div class="card">
+                <div class="hidden content ">
+                    <div id="image-description" class="ui cards">
+                        <div class="card ">
                             <div class="content">
                                 <div class="header">Universe</div>
                                 <div class="meta">2018</div>
@@ -87,15 +95,14 @@
             <div class="column ">
                 <div class=" middle aligned">
                     <p id="introduction"> <i class="circle icon"></i>Hey there! My name is Thanh Nam Tran, a
-                        passionate full time Jr Software Developer @ Media Cybernetics, Inc and a
-                        hobbyist full stack web developer based in Rockville, MD.
+                        full time Jr Software Developer at Media Cybernetics based in Rockville, MD.
                     </p>
                     <p id="introduction"> <i class="circle  icon"></i>While computer science is my
                         main passion at the moment,
                         designing and drawing have always been something that I'd like to do.
                     </p>
                     <p id="introduction"> <i class="circle icon"></i>So, hopefully you enjoy this design portfolio and
-                        the art in it as much as when I created this.
+                        the art in it as much as I do when creating this.
                     </p>
                     <div class=" "><img class="ui fluid image" src="images/image16.jpg" alt="Image"></div>
                 </div>
@@ -111,7 +118,12 @@
                 <div class=" "><img class="ui fluid image" src="images/image12.jpg" alt="Image"></div>
             </div>
             <div class="column">
-                <div class=" "><img class="ui fluid image" src="images/image37.jpg" alt="Image"></div>
+                <div class=" ">
+                    <video class="ui fluid image" autoplay muted loop>
+                        <source src="images/video1.mp4" type="video/mp4">
+
+                    </video>
+                </div>
             </div>
         </div>
         <div class="four column row">
@@ -144,7 +156,7 @@
 
     <h1 class="ui center aligned header">See more <i class="question icon loading"></i></h1>
 
-    <h1 class="ui right aligned header" id="seemore"><i class="copyright outline icon"></i>2022 Nam Tran</h1>
+    <h1 class="ui right aligned header" id="copyright"><i class="copyright outline icon"></i>2022 Nam Tran</h1>
 
 
     <script src="scripts/scripts.js"></script>

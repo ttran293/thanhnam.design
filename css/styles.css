@@ -30,31 +30,36 @@ h1 {
     margin: 1em;
 
 }
-
-#image-description{
+#copyright{
+    margin-right: 1rem;
+}
+#image-description {
     margin: 0 !important;
 }
+
+a{
+    color: black;
+}
+
 .textscroll {
-    max-width: 600px;
+
     margin: 1em auto;
     overflow: hidden;
     position: relative;
     min-height: 4em;
 }
 
-
-
 .example-left {
     white-space: nowrap;
     position: absolute;
-    text-transform: uppercase;
+
 }
 
 .example-left {
-    -webkit-animation: mymove 3s linear infinite;
+    -webkit-animation: mymove 15s linear infinite;
     /* Safari 4.0 - 8.0 */
     white-space: nowrap;
-    animation: mymove 3s linear infinite alternate;
+    animation: mymove 15s linear infinite alternate;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -64,7 +69,7 @@ h1 {
     }
 
     to {
-        left: -140px;
+        left: 120%;
     }
 }
 
@@ -74,6 +79,6 @@ h1 {
     }
 
     to {
-        left: -140px;
+        left: 120%;
     }
 }

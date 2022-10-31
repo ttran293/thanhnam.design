@@ -11,13 +11,21 @@ h1 {
     font-family: 'VCR OSD Mono', sans-serif;
     text-align: center;
     margin: 2em;
-    font-size: calc(40px + 1vw)
+    font-size: calc(40px + 1vw);
+
+
 }
 
 #header-menu {
     font-family: 'VCR OSD Mono', sans-serif;
     text-align: center;
     margin: 2em;
+
+}
+
+#border-top-1 {
+    margin-top: 5rem;
+    border-top: 1px solid black;
 }
 
 #seemore {
@@ -36,7 +44,19 @@ h1 {
 }
 
 #image-description {
-    margin: 0 !important;
+    padding-top: 2rem !important;
+}
+
+#image-spacing-5 {
+    margin-top: 5rem !important;
+}
+
+#image-spacing-10 {
+    margin-top: 5rem !important;
+}
+
+#image-spacing-15 {
+    margin-top: 5rem !important;
 }
 
 a {
@@ -84,4 +104,3 @@ a {
         left: 120%;
     }
 }
-
